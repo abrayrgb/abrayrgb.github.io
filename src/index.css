@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Plus Jakarta Sans", sans-serif;
+  --color-bg: #0a0c1f;
+  --color-card: #11142d;
+  --color-line: #24284f;
+  --color-ink: #eef0ff;
+  --color-mute: #9aa1c9;
+  --color-accent: #7c5cff;
+  --color-brand: #4f6bff;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-bg text-ink font-sans antialiased; }
+a:focus-visible, button:focus-visible { @apply outline-2 outline-offset-2 outline-accent; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
