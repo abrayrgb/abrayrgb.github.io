@@ -16,14 +16,14 @@ export default function Hero() {
           Saya seorang {profile.role}
         </motion.p>
         <motion.h1 variants={item} className="mt-5 font-display text-4xl font-extrabold leading-tight md:text-6xl">
-          Hi, i'm <span className="text-accent">{profile.firstName}</span>
+          Hi, i'm <span className="text-sun">{profile.firstName}</span>
           <br />
           {profile.headline}
         </motion.h1>
         <motion.p variants={item} className="mt-5 max-w-md text-mute">{profile.tagline}</motion.p>
 
         <motion.div variants={item} className="mt-8 flex flex-wrap gap-3">
-          <a href="#proyek" className="inline-flex items-center gap-2 rounded-md bg-linear-to-r from-brand to-accent px-6 py-3 font-medium text-white">
+          <a href="#proyek" className="inline-flex items-center gap-2 rounded-md bg-sun px-6 py-3 font-semibold text-bg">
             Lihat karya saya <FiArrowUpRight />
           </a>
           <a href={profile.cv} download className="inline-flex items-center gap-2 rounded-md border border-ink/70 px-6 py-3 font-medium hover:bg-white/5">

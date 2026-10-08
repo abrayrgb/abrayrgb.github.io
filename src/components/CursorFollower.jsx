@@ -51,7 +51,7 @@ export default function CursorFollower() {
           x: coreX,
           y: coreY,
           boxShadow:
-            '0 0 12px 2px rgba(124,92,255,0.9), 0 0 32px 8px rgba(124,92,255,0.55), 0 0 64px 16px rgba(79,107,255,0.35)',
+            '0 0 12px 2px rgba(0,151,216,0.9), 0 0 32px 8px rgba(0,151,216,0.55), 0 0 64px 16px rgba(255,212,0,0.25)',
         }}
         animate={{ scale: big ? 1.8 : 1 }}
         transition={{ duration: 0.2 }}

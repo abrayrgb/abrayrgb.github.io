@@ -3,13 +3,14 @@
 @theme {
   --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
   --font-display: "Bricolage Grotesque", "Plus Jakarta Sans", sans-serif;
-  --color-bg: #0a0c1f;
-  --color-card: #11142d;
-  --color-line: #24284f;
-  --color-ink: #eef0ff;
-  --color-mute: #9aa1c9;
-  --color-accent: #7c5cff;
-  --color-brand: #4f6bff;
+  --color-bg: #061a33;
+  --color-card: #0b2547;
+  --color-line: #17406b;
+  --color-ink: #eef6ff;
+  --color-mute: #9db8d6;
+  --color-accent: #0097d8;
+  --color-brand: #0a6fc2;
+  --color-sun: #ffd400;
 }
 
 html { scroll-behavior: smooth; }
