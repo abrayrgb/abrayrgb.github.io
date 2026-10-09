@@ -15,9 +15,9 @@ export const profile = {
   photo: '/reypicts.png', // contoh: '/foto.png' (taruh file di folder public/). Kosong = tampil inisial.
   email: 'abdulraihan.abray@gmail.com',
   phone: '+62 821 1561 3609',
-  github: 'https://github.com/username',
-  linkedin: 'https://linkedin.com/in/username',
-  instagram: 'https://instagram.com/username',
+  github: 'https://github.com/abrayrgb',
+  linkedin: 'https://www.linkedin.com/in/abdul-raihan-01bb6a2b8/',
+  instagram: 'https://instagram.com/reannnn.x?vrfl=emxreXJjZmppbzJp&utm_source=qr',
   cv: 'CV_AbdulRaihan.pdf', // contoh: '/cv.pdf' (taruh file di folder public/). Kosong = tidak tampil tombol unduh.
 }
 

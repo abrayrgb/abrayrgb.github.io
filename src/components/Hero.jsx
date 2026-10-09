@@ -23,7 +23,7 @@ export default function Hero() {
         <motion.p variants={item} className="mt-5 max-w-md text-mute">{profile.tagline}</motion.p>
 
         <motion.div variants={item} className="mt-8 flex flex-wrap gap-3">
-          <a href="#proyek" className="inline-flex items-center gap-1 rounded-md border border-sun bg-sun px-4 py-2 text-sm font-semibold text-bg hover:scale-105 hover:border-white hover:bg-transparent hover:text-white active:scale-95 transition duration-200 hover:scale-105 active:scale-95">
+          <a href="#proyek" className="inline-flex items-center gap-1 rounded-md border border-sun bg-sun px-4 py-2 text-sm font-semibold text-bg hover:border-white hover:bg-transparent hover:text-white transition duration-200 hover:scale-105 active:scale-95">
             Lihat karya saya <FiArrowUpRight />
           </a>
           <a href={profile.cv} download className="inline-flex items-center gap-2 rounded-md border border-ink/70 px-6 py-3 font-medium hover:border-sun hover:bg-sun hover:text-bg transition duration-200 hover:scale-105 active:scale-95">
