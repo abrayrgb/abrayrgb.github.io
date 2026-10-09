@@ -25,7 +25,7 @@ export default function Navbar() {
         </ul>
         <a
           href="#kontak"
-          className="inline-flex items-center gap-1 rounded-md bg-sun px-4 py-2 text-sm font-semibold text-bg transition-colors duration-200 hover:bg-accent hover:text-white"
+          className="inline-flex items-center gap-1 rounded-md border border-sun bg-sun px-4 py-2 text-sm font-semibold text-bg transition duration-200 hover:scale-105 hover:border-white hover:bg-transparent hover:text-white active:scale-95"
         >
           Hubungi saya <FiArrowUpRight />
         </a>

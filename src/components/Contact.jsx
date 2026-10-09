@@ -18,7 +18,7 @@ export default function Contact() {
           <p className="mt-3 text-sm leading-relaxed text-mute">
             Saya terbuka untuk posisi frontend developer junior dan senang berdiskusi.
           </p>
-          <a href={`mailto:${profile.email}`} className="inline-flex items-center gap-1 rounded-md bg-sun px-4 py-2 text-sm font-semibold text-bg transition-colors duration-200 hover:bg-accent hover:text-white">
+          <a href={`mailto:${profile.email}`} className="mt-6 inline-flex items-center gap-2 rounded-md border border-sun bg-sun px-5 py-2.5 text-sm font-semibold text-bg transition duration-200 hover:scale-105 hover:border-white hover:bg-transparent hover:text-white active:scale-95">
             Hubungi saya <FiArrowUpRight />
           </a>
         </div>
