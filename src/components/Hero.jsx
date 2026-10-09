@@ -23,10 +23,10 @@ export default function Hero() {
         <motion.p variants={item} className="mt-5 max-w-md text-mute">{profile.tagline}</motion.p>
 
         <motion.div variants={item} className="mt-8 flex flex-wrap gap-3">
-          <a href="#proyek" className="inline-flex items-center gap-2 rounded-md bg-sun px-6 py-3 font-semibold text-bg">
+          <a href="#proyek" className="inline-flex items-center gap-2 rounded-md bg-sun px-6 py-3 font-semibold text-bg transition-colors duration-200 hover:bg-accent hover:text-white">
             Lihat karya saya <FiArrowUpRight />
           </a>
-          <a href={profile.cv} download className="inline-flex items-center gap-2 rounded-md border border-ink/70 px-6 py-3 font-medium hover:bg-white/5">
+          <a href={profile.cv} download className="inline-flex items-center gap-2 rounded-md border border-ink/70 px-6 py-3 font-medium transition-colors duration-200 hover:border-sun hover:bg-sun hover:text-bg">
             Unduh CV <FiDownload />
           </a>
         </motion.div>
