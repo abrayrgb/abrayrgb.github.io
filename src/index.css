@@ -17,3 +17,12 @@ html { scroll-behavior: smooth; }
 body { @apply bg-bg text-ink font-sans antialiased; }
 a:focus-visible, button:focus-visible { @apply outline-2 outline-offset-2 outline-accent; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.projects-swiper,
+.projects-pagination {
+  --swiper-pagination-color: var(--color-sun);
+  --swiper-pagination-bullet-inactive-color: var(--color-mute);
+  --swiper-pagination-bullet-inactive-opacity: 0.4;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-horizontal-gap: 5px;
+}

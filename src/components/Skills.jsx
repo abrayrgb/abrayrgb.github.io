@@ -17,7 +17,7 @@ export default function Skills() {
             </div>
             <div className="h-1.5 rounded-full bg-line">
               <motion.div
-                className="h-full rounded-full bg-linear-to-r from-brand to-accent"
+                className="h-full rounded-full bg-sun"
                 initial={{ width: 0 }}
                 whileInView={{ width: `${level}%` }}
                 viewport={{ once: true }}

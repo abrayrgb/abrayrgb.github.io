@@ -32,7 +32,7 @@ export default function Hero() {
         </motion.div>
 
         <motion.div variants={item} className="mt-10">
-          <p className="mb-3 text-xs text-mute">Teknologi yang saya pakai</p>
+          <p className="mb-3 text-xs text-mute">Framework yang saya pakai</p>
           <ul className="flex gap-4 text-2xl text-mute">
             {techs.map((Icon, i) => (
               <li key={i}><Icon /></li>
