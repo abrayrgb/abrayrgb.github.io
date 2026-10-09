@@ -9,7 +9,7 @@ export const profile = {
   role: 'Frontend Developer',
   headline: 'I build modern, fast, and user-friendly web interfaces.',
   tagline:
-    'Frontend developer junior yang fokus membuat antarmuka modern, cepat, dan nyaman dipakai di ponsel.',
+    'Frontend developer junior yang fokus membuat antarmuka modern, cepat, dan nyaman dipakai digunakan.',
   about:
     'Saya lulusan Informatics Telkom University. Saya memiliki minat dalam membangun antarmuka yang responsif, intuitif, dan user-friendly. Saya terus belajar lewat proyek nyata dan siap berkontribusi di tim. Saya selalu berusaha memberikan solusi terbaik dan terus belajar untuk berkembang dalam dunia teknologi yang terus berkembang ini.',
   photo: '/reypicts.png', // contoh: '/foto.png' (taruh file di folder public/). Kosong = tampil inisial.
@@ -21,7 +21,7 @@ export const profile = {
   cv: 'CV_AbdulRaihan.pdf', // contoh: '/cv.pdf' (taruh file di folder public/). Kosong = tidak tampil tombol unduh.
 }
 
-export const techs = [FaHtml5, FaCss3Alt, FaJs, SiTypescript, FaReact, FaNodeJs, FaGitAlt]
+export const techs = [FaHtml5, FaCss3Alt, FaJs, DiMysql, FaReact, FaNodeJs, FaGitAlt, FaWordpress, FaPython, SiTailwindcss, SiNextdotjs]
 
 export const stats = [
   { icon: FiCalendar, value: '3+', label: 'Tahun belajar' },

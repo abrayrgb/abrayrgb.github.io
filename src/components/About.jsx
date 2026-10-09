@@ -6,7 +6,7 @@ export default function About() {
     <section id="tentang" className="scroll-mt-16 border-y border-line bg-card/40 py-16">
       <Reveal className="mx-auto grid max-w-6xl items-center gap-10 px-5 md:grid-cols-2">
         <div>
-          <h2 className="font-display text-3xl font-bold">Saya senang membuat solusi digital</h2>
+          <h2 className="font-display text-3xl font-bold">Terus Berkembang, Terus Berinovasi</h2>
           <p className="mt-4 max-w-md leading-relaxed text-mute">{profile.about}</p>
         </div>
         <dl className="grid grid-cols-2 gap-6">
