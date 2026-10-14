@@ -46,42 +46,42 @@ export const skills = [
 export const projects = [
   {
     title: 'Website Panti Al-Muminun',
-    description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+    description: 'Website informasi panti yang dirancang untuk menyajikan profil, informasi kegiatan, dan informasi terkait panti secara terstruktur. Dikembangkan menggunakan WordPress dengan dukungan PHP dan MySQL untuk memudahkan pengelolaan konten website.',
     tech: ['WordPress', 'PHP', 'MySQL'],
     image: 'almuminun.jpeg', // contoh: '/proyek1.png'
     demo: 'https://contoh.com',
   },
   {
     title: 'Tools Open Layer Combat Machine PT.LEN Industri',
-    description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.".',
+    description: 'Pengembangan antarmuka aplikasi berbasis desktop untuk mendukung penggunaan tools Open Layer Combat Machine. Dibangun menggunakan React, JavaScript, dan Tailwind CSS, dengan integrasi REST API serta Tauri.js untuk menghubungkan antarmuka web dengan lingkungan aplikasi desktop.',
     tech: ['React', 'REST API', 'Tailwind CSS', 'Tauri.js', 'JavaScript'],
     image: 'ol.png',
     demo: 'https://github.com/agus-wesly/fe-openlayer-practice',
   },
   {
     title: 'Website Company Profile PT. Padi Mas Prima',
-    description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.".',
+    description: 'Website profil perusahaan yang dirancang untuk menyajikan informasi tentang perusahaan, produk, dan layanan yang ditawarkan. Dikembangkan menggunakan WordPress dengan dukungan PHP dan MySQL untuk memudahkan pengelolaan konten website.',
     tech: ['WordPress', 'PHP', 'MySQL'],
     image: 'padimas.png',
     demo: 'https://drive.google.com/drive/folders/1sL6kJLXq_Hsz3YKN9VZbCxeNRXgIVc3K?usp=sharing',
   },
   {
   title: 'Website Ecommerce Microfrontend React + Module Federation ',
-  description: 'Satu atau dua kalimat tentang masalah yang diselesaikan.',
+  description: 'Pengembangan antarmuka website e-commerce menggunakan arsitektur microfrontend untuk memisahkan aplikasi menjadi modul-modul yang lebih terstruktur. Menggunakan React, Vite, dan Module Federation untuk mendukung integrasi antarbagian aplikasi serta mempermudah pengembangan dan pemeliharaan kode',
   tech: ['React', 'Tailwind', 'Module Federation', 'Microfrontend', 'Vite', 'node.js'],
   image: '/ecommerce.png',
   demo: 'https://github.com/INTERN-FE/len-ecommerce',
 },
 {
   title: 'Nongkies - Website CoffeShop Recommendation',
-  description: 'Satu atau dua kalimat tentang masalah yang diselesaikan.',
+  description: 'Website rekomendasi coffee shop yang membantu pengguna menemukan referensi tempat untuk menikmati kopi sesuai kebutuhan mereka. Dikembangkan menggunakan WordPress, PHP, dan MySQL, dengan rancangan antarmuka yang berfokus pada kemudahan navigasi dan penyajian informasi coffee shop.',
   tech: ['WordPress', 'PHP', 'MySQL','figma'],
   image: 'nongkies.png',
   demo: 'https://tautan-proyek.com',
 },
 {
   title: 'Website Bakso Pala',
-  description: 'Satu atau dua kalimat tentang masalah yang diselesaikan.',
+  description: 'Website untuk memperkenalkan usaha kuliner Bakso Pala melalui penyajian informasi produk, profil usaha, dan informasi yang dibutuhkan pelanggan. Dibangun menggunakan WordPress, PHP, dan MySQL untuk mendukung pengelolaan konten serta memberikan pengalaman menjelajah website yang sederhana dan mudah digunakan.',
   tech: ['WordPress', 'PHP', 'MySQL'],
   image: 'bakso.png',
   demo: 'https://tautan-proyek.com',
