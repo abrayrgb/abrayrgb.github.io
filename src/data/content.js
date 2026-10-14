@@ -46,21 +46,21 @@ export const skills = [
 export const projects = [
   {
     title: 'Website Panti Al-Muminun',
-    description: 'Grafik interaktif, filter tanggal, dan ekspor CSV untuk memantau penjualan harian.',
+    description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
     tech: ['WordPress', 'PHP', 'MySQL'],
     image: 'almuminun.jpeg', // contoh: '/proyek1.png'
     demo: 'https://contoh.com',
   },
   {
     title: 'Tools Open Layer Combat Machine PT.LEN Industri',
-    description: 'Cari kota, lihat prakiraan 5 hari, dan simpan kota favorit. Ringan dan cepat.',
+    description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.".',
     tech: ['React', 'REST API', 'Tailwind CSS', 'Tauri.js', 'JavaScript'],
     image: 'ol.png',
     demo: 'https://github.com/agus-wesly/fe-openlayer-practice',
   },
   {
     title: 'Website Company Profile PT. Padi Mas Prima',
-    description: 'Katalog dengan pencarian, filter kategori, dan halaman detail. Proyek tim 3 orang.',
+    description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.".',
     tech: ['WordPress', 'PHP', 'MySQL'],
     image: 'padimas.png',
     demo: 'https://drive.google.com/drive/folders/1sL6kJLXq_Hsz3YKN9VZbCxeNRXgIVc3K?usp=sharing',
